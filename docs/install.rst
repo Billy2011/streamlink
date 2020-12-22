@@ -11,27 +11,27 @@ Version                              Installing
 `Latest release(pip)`_               .. code-block:: bash
 
                                         # Current user
-                                        pip install --upgrade --user git+https://github.com/Billy2011/streamlink-27/tree/release-1.27.0.0.git
+                                        pip install --upgrade --user git+https://github.com/Billy2011/streamlink-27/tree/release-1.27.1.0.git
 
                                         # System wide
-                                        sudo pip install --upgrade git+https://github.com/Billy2011/streamlink-27/tree/release-1.27.0.0.git
+                                        sudo pip install --upgrade git+https://github.com/Billy2011/streamlink-27/tree/release-1.27.1.0.git
 
 `Latest release(git)`_               .. code-block:: bash
 
                                         # Current user
-                                        git clone https://github.com/Billy2011/streamlink-27/tree/release-1.27.0.0.git
+                                        git clone https://github.com/Billy2011/streamlink-27/tree/release-1.27.1.0.git
                                         cd streamlink
                                         python setup.py install --user
 
                                         # System wide
-                                        git clone https://github.com/Billy2011/streamlink-27/tree/release-1.27.0.0.git
+                                        git clone https://github.com/Billy2011/streamlink-27/tree/release-1.27.1.0.git
                                         cd streamlink
                                         sudo python setup.py install
 ==================================== ===========================================
 
 .. _git: https://git-scm.com/
-.. _Latest release(pip): https://github.com/Billy2011/streamlink-27/tree/release-1.27.0.0
-.. _Latest release(git): https://github.com/Billy2011/streamlink-27/tree/release-1.27.0.0
+.. _Latest release(pip): https://github.com/Billy2011/streamlink-27/tree/release-1.27.1.0
+.. _Latest release(git): https://github.com/Billy2011/streamlink-27/tree/release-1.27.1.0
 
 Virtual environment
 ^^^^^^^^^^^^^^^^^^^
@@ -76,7 +76,7 @@ To install Streamlink from source you will need these dependencies.
 ==================================== ===========================================
 Name                                 Notes
 ==================================== ===========================================
-`Python`_                            At least version **2.7** or **3.5**.
+`Python`_                            At least version **2.7** or **3.6**.
 `python-setuptools`_
 
 **Automatically installed by the setup script**
